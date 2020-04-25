@@ -1,0 +1,19 @@
+{
+  "name": "auth2-project",
+  "version": "1.0.0",
+  "description": "- Authentication.\r - Express Middleware.\r - JSON Web Tokens (JWTs).\r - Hashing Passwords.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikepadiernos/node-auth2-project.git"
+  },
+  "author": "Michael Padiernos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikepadiernos/node-auth2-project/issues"
+  },
+  "homepage": "https://github.com/mikepadiernos/node-auth2-project#readme"
+}
