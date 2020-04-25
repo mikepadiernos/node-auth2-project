@@ -12,12 +12,6 @@ const logger = (req, res, next) => {
 
 const restrict = (req, res, next) => {
 
-	// req.session && req.session.user
-	// 	? next()
-	// 	: res.status(401).json({ success: false, message: 'Content restricted. Please log in to access.' })
-	console.log("Req: ", req.headers);
-	// console.log("Res: ", res);
-
 	try {
 		const token = req.headers.authorization;
 
